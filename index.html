@@ -88,8 +88,8 @@
     <div class="container">
         
         <div class="header">
-            <div class="date">2026-02-27</div>
-            <div class="weekday">星期五</div>
+            <div class="date">2026-03-03</div>
+            <div class="weekday">星期二</div>
             
             <div class="milestone">📌 本周核心：完成 instruction binder pass (张量布局转换、broadcast、reduce、transpose)</div>
             
@@ -102,38 +102,84 @@
                     <span class="priority">P0</span>
                     <div class="task-content">
                         <div class="task-title">
-                            推进Arknife核心进度
+                            完成instruction binder pass中的张量布局转换逻辑实现与测试
                         </div>
                         <div class="task-meta">
-                            📂 核心开发
+                            📂 Arknife核心开发
                              | 🎯 主线
                             
                         </div>
                         
-                        <div class="progress-note">↪ 进度总结: 完成了GEMV支持、inst binder自动展开功能和temporal loop fuser pass的更新，但仍有待在设备上运行代码验证及其他形式GEMV和自动reduce的支持待完成</div>
+                    </div>
+                    <div class="hours">2.0h</div>
+                </li>
+                
+                <li class="task-item p0 ">
+                    <span class="priority">P0</span>
+                    <div class="task-content">
+                        <div class="task-title">
+                            实现并验证broadcast、reduce、transpose在instruction binder中的处理流程
+                        </div>
+                        <div class="task-meta">
+                            📂 Arknife核心开发
+                             | 🎯 主线
+                            
+                        </div>
                         
                     </div>
-                    <div class="hours">4h</div>
+                    <div class="hours">2.5h</div>
+                </li>
+                
+                <li class="task-item p1 ">
+                    <span class="priority">P1</span>
+                    <div class="task-content">
+                        <div class="task-title">
+                            精读1篇ML Sys领域论文，关注编译优化或张量程序生成相关工作
+                        </div>
+                        <div class="task-meta">
+                            📂 论文阅读
+                            
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="hours">1.5h</div>
+                </li>
+                
+                <li class="task-item p2 ">
+                    <span class="priority">P2</span>
+                    <div class="task-content">
+                        <div class="task-title">
+                            初步调研Sparse-Arknife可行性，记录关键挑战点
+                        </div>
+                        <div class="task-meta">
+                            📂 下个项目构思
+                            
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="hours">0.5h</div>
                 </li>
                 
             </ul>
             
             <div class="summary">
                 <div>今日规划总工时</div>
-                <div class="total-hours">4 小时</div>
+                <div class="total-hours">6.5 小时</div>
             </div>
             
             
             <div class="reasoning">
                 <strong>💡 AI 规划思路：</strong><br>
-                API调用失败，降级生成的默认计划。
+                今日是第1周的最后一天，核心里程碑是完成instruction binder pass，包含张量布局转换、broadcast、reduce、transpose功能。昨日无遗留P0任务，因此今日应集中精力完成该pass的剩余功能模块。考虑到总工时控制在6-8小时，需合理分配给核心开发和辅助任务。同时本周目标需达成，因此优先安排P0任务，再补充P1论文阅读任务以保持知识输入。
             </div>
             
         </div>
         
         <div class="footer">
-            最后更新于 2026-02-27T02:03:22.967206 | 
-            基于近 0 天进度数据生成
+            最后更新于 2026-03-03T02:08:45.494903 | 
+            基于近 1 天进度数据生成
         </div>
         
     </div>
