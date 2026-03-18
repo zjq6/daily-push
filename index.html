@@ -88,10 +88,10 @@
     <div class="container">
         
         <div class="header">
-            <div class="date">2026-03-17</div>
-            <div class="weekday">星期二</div>
+            <div class="date">2026-03-18</div>
+            <div class="weekday">星期三</div>
             
-            <div class="milestone">📌 本周核心：算子适配 II (gemm fp16/int8, transpose, spacetodepth, resizebilinear, lstm)</div>
+            <div class="milestone">📌 本周核心：Hexagon-MLIR 跑通示例算子并搭建对比框架</div>
             
         </div>
         
@@ -146,39 +146,23 @@
                     <div class="hours">1.5h</div>
                 </li>
                 
-                <li class="task-item p1 ">
-                    <span class="priority">P1</span>
-                    <div class="task-content">
-                        <div class="task-title">
-                            精读ML Sys领域论文1篇
-                        </div>
-                        <div class="task-meta">
-                            📂 论文阅读
-                            
-                            
-                        </div>
-                        
-                    </div>
-                    <div class="hours">1.5h</div>
-                </li>
-                
             </ul>
             
             <div class="summary">
                 <div>今日规划总工时</div>
-                <div class="total-hours">7.5 小时</div>
+                <div class="total-hours">6.0 小时</div>
             </div>
             
             
             <div class="reasoning">
                 <strong>💡 AI 规划思路：</strong><br>
-                今日是第3周的最后一天，核心目标是完成算子适配II的里程碑。昨日遗留了4项P0任务，其中3项需要carry-over优先处理，以确保本周目标达成。剩余时间需合理分配至新任务，确保GEMM FP16/INT8继续推进，并留出时间进行论文阅读以保持对领域动态的敏感性。
+                今日是第4周开始，距离ASPLOS截稿日仅4周。当前最紧急的是完成上周遗留的P0任务，这些任务属于第1周和第2周里程碑，对整体进度至关重要。必须优先完成instruction binder pass中剩余的张量布局转换、broadcast、reduce、transpose逻辑，以及LayerNorm算子的适配，才能确保本周能顺利推进Hexagon-MLIR示例算子运行与对比框架搭建。因此今日全部安排P0任务，聚焦核心开发。
             </div>
             
         </div>
         
         <div class="footer">
-            最后更新于 2026-03-17T02:07:27.761486 | 
+            最后更新于 2026-03-18T02:11:15.639569 | 
             基于近 0 天进度数据生成
         </div>
         
