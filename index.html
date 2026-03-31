@@ -88,8 +88,8 @@
     <div class="container">
         
         <div class="header">
-            <div class="date">2026-03-30</div>
-            <div class="weekday">星期一</div>
+            <div class="date">2026-03-31</div>
+            <div class="weekday">星期二</div>
             
             <div class="milestone">📌 本周核心：完成 Hexagon-MLIR 算子全对比，4月前完成所有主要实验</div>
             
@@ -146,23 +146,39 @@
                     <div class="hours">1.5h</div>
                 </li>
                 
+                <li class="task-item p2 ">
+                    <span class="priority">P2</span>
+                    <div class="task-content">
+                        <div class="task-title">
+                            初步搭建Hexagon-MLIR与Arknife的算子对比环境，选取3个关键算子进行结果比对
+                        </div>
+                        <div class="task-meta">
+                            📂 实验对比
+                             | 🎯 主线
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="hours">2.0h</div>
+                </li>
+                
             </ul>
             
             <div class="summary">
                 <div>今日规划总工时</div>
-                <div class="total-hours">6.0 小时</div>
+                <div class="total-hours">8.0 小时</div>
             </div>
             
             
             <div class="reasoning">
                 <strong>💡 AI 规划思路：</strong><br>
-                今日任务需优先处理昨日遗留的3项P0任务，这些任务属于第1周和第2周的核心里程碑，对整体进度至关重要。预计总耗时6小时，正好符合工时要求。无需新增其他任务，集中精力完成遗留工作即可。
+                今日是第5周的开始，距离ASPLOS截稿日仅剩2周，当前最紧急的是完成上周遗留的P0任务，确保核心功能稳定。因此优先安排完成instruction binder pass中剩余的张量布局转换和broadcast/reduce/transpose逻辑，并推进LayerNorm算子适配。由于本周目标是完成Hexagon-MLIR算子全对比，需开始着手相关实验准备，故加入一项P2任务用于启动该工作。同时保持对领域论文的关注以支撑写作部分。
             </div>
             
         </div>
         
         <div class="footer">
-            最后更新于 2026-03-30T02:31:22.318754 | 
+            最后更新于 2026-03-31T02:26:26.795407 | 
             基于近 0 天进度数据生成
         </div>
         
